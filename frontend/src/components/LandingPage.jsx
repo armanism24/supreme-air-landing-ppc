@@ -2,6 +2,7 @@ import React from 'react';
 import { mockData } from '../mock';
 import Header from './Header';
 import Hero from './Hero';
+import AwardCertificate from './AwardCertificate';
 import VideoSection from './VideoSection';
 import Services from './Services';
 import WhyChooseUs from './WhyChooseUs';
@@ -17,6 +18,7 @@ const LandingPage = () => {
     <div className="min-h-screen bg-white">
       <Header company={mockData.company} />
       <Hero hero={mockData.hero} />
+      <AwardCertificate />
       <VideoSection />
       <Services services={mockData.services} />
       <WhyChooseUs reasons={mockData.whyChooseUs} />

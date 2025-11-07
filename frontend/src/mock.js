@@ -12,7 +12,7 @@ export const mockData = {
   
   hero: {
     title: "Austin's #1 Air Duct Cleaning Experts",
-    subtitle: "CCA Award Winner for Best Air Duct Cleaning in Austin",
+    subtitle: "Consumer Choice Award Winner for Best Air Duct Cleaning in Austin",
     description: "Local family-owned business with 773+ five-star Google reviews. Professional air duct cleaning and attic insulation services.",
     backgroundImage: "https://customer-assets.emergentagent.com/job_eae61aa1-dba7-4e8d-aaf8-78c076ac8e8b/artifacts/61ff1htk_air%20duct%20cleaning%20near%20me.png",
     cta: {
@@ -40,7 +40,7 @@ export const mockData = {
   
   whyChooseUs: [
     {
-      title: "CCA Award Winner",
+      title: "Consumer Choice Award Winner",
       description: "Recognized as the Best Air Duct Cleaning service in Austin",
       icon: "award"
     },

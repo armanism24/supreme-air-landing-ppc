@@ -37,11 +37,11 @@ const Header = ({ company }) => {
             <div className="hidden sm:flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-2">
                 <img 
-                  src="/footer-ribbon-consumer-choice-01-249x300.webp" 
+                  src="/award batch.png" 
                   alt="Consumer Choice Award Winner"
-                  className="w-8 h-10 object-contain"
+                  className="w-10 h-12 object-contain"
                 />
-                <span className="font-semibold">CCA Winner</span>
+                <span className="font-semibold">Consumer Choice Award Winner</span>
               </div>
               <div className="flex items-center space-x-1">
                 <span>⭐</span>
@@ -121,12 +121,12 @@ const Header = ({ company }) => {
             {/* Mobile Award Display */}
             <div className="flex items-center justify-center space-x-2 mb-4 p-3 bg-gray-50 rounded-lg">
               <img 
-                src="/footer-ribbon-consumer-choice-01-249x300.webp" 
+                src="/award batch.png" 
                 alt="Consumer Choice Award Winner"
-                className="w-8 h-10 object-contain"
+                className="w-10 h-12 object-contain"
               />
               <div className="text-center">
-                <div className="font-semibold text-gray-900">CCA Winner</div>
+                <div className="font-semibold text-gray-900">Consumer Choice Award Winner</div>
                 <div className="text-sm text-gray-600">Best in Austin</div>
               </div>
             </div>

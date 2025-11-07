@@ -117,15 +117,13 @@ const Hero = ({ hero }) => {
               </div>
               
               <div className="flex items-center space-x-3">
-                <div className="bg-white/20 p-2 rounded-lg">
-                  <img 
-                    src="/footer-ribbon-consumer-choice-01-249x300.webp" 
-                    alt="Consumer Choice Award Winner"
-                    className="w-12 h-14 object-contain"
-                  />
-                </div>
+                <img 
+                  src="/award batch.png" 
+                  alt="Consumer Choice Award Winner"
+                  className="w-20 h-24 object-contain"
+                />
                 <div>
-                  <div className="font-bold text-lg">CCA Winner</div>
+                  <div className="font-bold text-lg">Consumer Choice Award Winner</div>
                   <div className="text-gray-300 text-sm">Best in Austin</div>
                 </div>
               </div>

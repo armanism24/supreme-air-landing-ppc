@@ -29,7 +29,7 @@ const Footer = ({ company }) => {
                 className="w-12 h-14 object-contain"
               />
               <div>
-                <div className="font-semibold text-[#8FC73D]">CCA Award Winner</div>
+                <div className="font-semibold text-[#8FC73D]">Consumer Choice Award Winner</div>
                 <div className="text-gray-400 text-sm">Best Air Duct Cleaning in Austin</div>
               </div>
             </div>
