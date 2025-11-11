@@ -91,7 +91,17 @@ const Hero = ({ hero }) => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="text-white">
-            <div className="flex items-center space-x-2 mb-4">
+            {/* Mobile: Award batch image on the left, text on the right (same line) */}
+            <div className="flex items-center space-x-3 sm:hidden mb-4">
+              <img 
+                src="/award batch.png" 
+                alt="Consumer Choice Award Winner"
+                className="w-16 h-20 object-contain flex-shrink-0"
+              />
+              <span className="text-[#8FC73D] font-semibold text-base leading-tight">{hero.subtitle}</span>
+            </div>
+            {/* Desktop: Original layout with icon and text */}
+            <div className="hidden sm:flex items-center space-x-2 mb-4">
               <Award className="w-6 h-6 text-[#8FC73D]" />
               <span className="text-[#8FC73D] font-semibold text-lg">{hero.subtitle}</span>
             </div>
@@ -112,7 +122,11 @@ const Hero = ({ hero }) => {
                 </div>
                 <div>
                   <div className="font-bold text-lg">{totalReviews}+</div>
-                  <div className="text-gray-300 text-sm">5-Star Reviews</div>
+                  <div className="flex items-center space-x-1 text-gray-300 text-sm">
+                    <span>5 </span>
+                    <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
+                    <span>Real Reviews</span>
+                  </div>
                 </div>
               </div>
               
