@@ -94,7 +94,7 @@ const Hero = ({ hero }) => {
             {/* Mobile: Award batch image on the left, text on the right (same line) */}
             <div className="flex items-center space-x-3 sm:hidden mb-4">
               <img 
-                src="/award batch.png" 
+                src={`${process.env.PUBLIC_URL}/award batch.png`} 
                 alt="Consumer Choice Award Winner"
                 className="w-16 h-20 object-contain flex-shrink-0"
               />
@@ -132,7 +132,7 @@ const Hero = ({ hero }) => {
               
               <div className="flex items-center space-x-3">
                 <img 
-                  src="/award batch.png" 
+                  src={`${process.env.PUBLIC_URL}/award batch.png`} 
                   alt="Consumer Choice Award Winner"
                   className="w-20 h-24 object-contain"
                 />

@@ -37,7 +37,7 @@ const Header = ({ company }) => {
             <div className="hidden sm:flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-2">
                 <img 
-                  src="/award batch.png" 
+                  src={`${process.env.PUBLIC_URL}/award batch.png`} 
                   alt="Consumer Choice Award Winner"
                   className="w-10 h-12 object-contain"
                 />
@@ -121,7 +121,7 @@ const Header = ({ company }) => {
             {/* Mobile Award Display */}
             <div className="flex items-center justify-center space-x-2 mb-4 p-3 bg-gray-50 rounded-lg">
               <img 
-                src="/award batch.png" 
+                src={`${process.env.PUBLIC_URL}/award batch.png`} 
                 alt="Consumer Choice Award Winner"
                 className="w-10 h-12 object-contain"
               />

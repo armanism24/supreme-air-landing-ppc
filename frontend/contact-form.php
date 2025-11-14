@@ -49,7 +49,8 @@ if (empty($recaptcha_token)) {
 }
 
 // Verify reCAPTCHA with Google
-$recaptcha_secret = '6Lf1buArAAAAAKy5Onoq3IkFlNFwbht5Vvhl4xLW';
+// Updated secret key for directory-based structure
+$recaptcha_secret = '6LcoxgwsAAAAAIDqp9KxTr3FACio8EzU5mvbyjyI';
 $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
 $recaptcha_data = [
     'secret' => $recaptcha_secret,

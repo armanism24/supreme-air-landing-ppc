@@ -11,7 +11,7 @@ const AwardCertificate = () => {
             <div className="p-8 lg:p-12 bg-gradient-to-br from-gray-50 to-white">
               <div className="relative">
                 <img 
-                  src="/supreme air_page-0001.jpg" 
+                  src={`${process.env.PUBLIC_URL}/supreme air_page-0001.jpg`} 
                   alt="2026 Consumer Choice Award Certificate - Supreme Air Duct Cleaning"
                   className="w-full h-auto rounded-lg shadow-xl object-contain"
                 />

@@ -8,7 +8,8 @@ function App() {
   return (
     <div className="App">
       <ReviewProvider>
-        <BrowserRouter>
+        {/* Set basename to /leads for directory-based routing instead of subdomain */}
+        <BrowserRouter basename="/leads">
           <Routes>
             <Route path="/" element={<LandingPage />} />
           </Routes>

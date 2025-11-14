@@ -24,7 +24,7 @@ const Footer = ({ company }) => {
             
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/footer-ribbon-consumer-choice-01-249x300.webp" 
+                src={`${process.env.PUBLIC_URL}/footer-ribbon-consumer-choice-01-249x300.webp`} 
                 alt="Consumer Choice Award Winner"
                 className="w-12 h-14 object-contain"
               />

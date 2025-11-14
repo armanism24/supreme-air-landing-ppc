@@ -1,7 +1,8 @@
 // PHP Mail Service for Supreme Air Austin with reCAPTCHA
 // This will work with your BlueHost hosting
+// Updated to use /leads directory path instead of subdomain
 
-const PHP_MAIL_ENDPOINT = '/contact-form.php'; // Adjust path based on your hosting setup
+const PHP_MAIL_ENDPOINT = '/leads/contact-form.php'; // Path updated for directory-based structure
 
 export const sendContactEmail = async (formData, recaptchaToken) => {
   try {

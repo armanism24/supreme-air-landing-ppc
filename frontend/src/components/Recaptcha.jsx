@@ -48,7 +48,7 @@ const Recaptcha = forwardRef(({ onVerify, onExpire, onError }, ref) => {
     <div className="flex justify-center my-4">
       <ReCAPTCHA
         ref={recaptchaRef}
-        sitekey="6Lf1buArAAAAAJhFWkhppVDCf5rxk0YQjE-QNx1y"
+        sitekey="6LcoxgwsAAAAAHGVP1X_beZO0EgAqoIbnibXCvXB"
         onChange={handleVerify}
         onExpired={handleExpire}
         onErrored={handleError}

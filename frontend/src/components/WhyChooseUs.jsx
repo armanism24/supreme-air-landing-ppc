@@ -46,7 +46,7 @@ const WhyChooseUs = ({ reasons }) => {
                   {reason.icon === 'award' ? (
                     <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                       <img 
-                        src="/footer-ribbon-consumer-choice-01-249x300.webp" 
+                        src={`${process.env.PUBLIC_URL}/footer-ribbon-consumer-choice-01-249x300.webp`} 
                         alt="Consumer Choice Award Winner"
                         className="w-full h-full object-contain"
                       />
