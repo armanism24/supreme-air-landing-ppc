@@ -11,8 +11,8 @@ const AwardCertificate = () => {
             <div className="p-8 lg:p-12 bg-gradient-to-br from-gray-50 to-white">
               <div className="relative">
                 <img 
-                  src={`${process.env.PUBLIC_URL}/supreme air_page-0001.jpg`} 
-                  alt="2026 Consumer Choice Award Certificate - Supreme Air Duct Cleaning"
+                  src={`${process.env.PUBLIC_URL}/supreme air_page-0001 HD.jpg`} 
+                  alt="2026 Consumer Choice Award Certificate - Supreme Air Duct Cleaning - Austin & San Antonio"
                   className="w-full h-auto rounded-lg shadow-xl object-contain"
                 />
                 {/* Decorative elements */}
@@ -36,10 +36,10 @@ const AwardCertificate = () => {
                   Consumer Choice Award Recipient
                 </h3>
                 <p className="text-xl text-gray-700 font-semibold mb-4">
-                  San Antonio Region
+                  Austin & San Antonio Regions
                 </p>
                 <p className="text-lg text-gray-600 mb-4">
-                  Supreme Air Duct Cleaning has been selected by consumers and businesses in the San Antonio region as the <span className="font-bold text-[#009ed7]">2026 Consumer Choice Award recipient</span> in the category of:
+                  Supreme Air Duct Cleaning has been selected by consumers and businesses in the <span className="font-bold text-[#009ed7]">Austin & San Antonio regions</span> as the <span className="font-bold text-[#009ed7]">2026 Consumer Choice Award recipient</span> in the category of:
                 </p>
                 <div className="bg-[#8FC73D] text-white px-6 py-4 rounded-lg mb-6">
                   <p className="text-xl font-bold uppercase tracking-wide">
@@ -66,7 +66,7 @@ const AwardCertificate = () => {
                   <div className="bg-[#8FC73D]/20 p-2 rounded-lg">
                     <Star className="w-5 h-5 text-[#8FC73D]" />
                   </div>
-                  <span className="text-gray-700 font-medium">Best in San Antonio region</span>
+                  <span className="text-gray-700 font-medium">Best in Austin & San Antonio regions</span>
                 </div>
               </div>
 

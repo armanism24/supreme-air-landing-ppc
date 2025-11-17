@@ -76,9 +76,9 @@ const Hero = ({ hero }) => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center">
-      {/* Background with overlay */}
-      <div className="absolute inset-0">
+    <section className="relative min-h-screen flex items-center bg-white md:bg-transparent">
+      {/* Background with overlay - hidden on mobile, visible on desktop */}
+      <div className="absolute inset-0 hidden md:block">
         <img 
           src={hero.backgroundImage}
           alt="Air Duct Cleaning Service"
@@ -89,8 +89,8 @@ const Hero = ({ hero }) => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left content */}
-          <div className="text-white">
+          {/* Left content - text color changes for mobile (dark) and desktop (white) */}
+          <div className="text-gray-900 md:text-white">
             {/* Mobile: Award batch image on the left, text on the right (same line) */}
             <div className="flex items-center space-x-3 sm:hidden mb-4">
               <img 
@@ -110,7 +110,7 @@ const Hero = ({ hero }) => {
               {hero.title}
             </h1>
             
-            <p className="text-xl text-gray-200 mb-8 leading-relaxed">
+            <p className="text-xl text-gray-700 md:text-gray-200 mb-8 leading-relaxed">
               {hero.description}
             </p>
 
@@ -122,7 +122,7 @@ const Hero = ({ hero }) => {
                 </div>
                 <div>
                   <div className="font-bold text-lg">{totalReviews}+</div>
-                  <div className="flex items-center space-x-1 text-gray-300 text-sm">
+                  <div className="flex items-center space-x-1 text-gray-600 md:text-gray-300 text-sm">
                     <span>5 </span>
                     <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
                     <span>Real Reviews</span>
@@ -138,7 +138,7 @@ const Hero = ({ hero }) => {
                 />
                 <div>
                   <div className="font-bold text-lg">Consumer Choice Award Winner</div>
-                  <div className="text-gray-300 text-sm">Best in Austin</div>
+                  <div className="text-gray-600 md:text-gray-300 text-sm">Best in Austin</div>
                 </div>
               </div>
               
@@ -148,7 +148,7 @@ const Hero = ({ hero }) => {
                 </div>
                 <div>
                   <div className="font-bold text-lg">Family Owned</div>
-                  <div className="text-gray-300 text-sm">Local Business</div>
+                  <div className="text-gray-600 md:text-gray-300 text-sm">Local Business</div>
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ const Hero = ({ hero }) => {
               <Button 
                 size="lg"
                 variant="outline"
-                className="border-2 border-white text-white px-8 py-4 text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300"
+                className="border-2 border-[#009ed7] md:border-white text-[#009ed7] md:text-white px-8 py-4 text-lg font-semibold hover:bg-[#009ed7] md:hover:bg-white hover:text-white md:hover:text-gray-900 transition-all duration-300"
                 onClick={() => window.open('tel:+15122779782')}
               >
                 <Phone className="w-5 h-5 mr-2" />

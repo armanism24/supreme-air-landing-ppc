@@ -104,8 +104,17 @@ const Header = ({ company }) => {
             </a>
           </div>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden">
+          {/* Mobile: Call Now button and hamburger menu */}
+          <div className="md:hidden flex items-center space-x-3">
+            {/* Mobile Call Now button - visible only on mobile, positioned between logo and hamburger */}
+            <a
+              href={`tel:${company.phone}`}
+              className="bg-[#8FC73D] text-white px-4 py-2 rounded-lg font-semibold hover:bg-[#7AB62D] transition-colors shadow-lg text-sm whitespace-nowrap flex items-center space-x-1"
+            >
+              <Phone className="w-4 h-4" />
+              <span>Call Now</span>
+            </a>
+            {/* Mobile menu button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-700 hover:text-[#009ed7] p-2"
